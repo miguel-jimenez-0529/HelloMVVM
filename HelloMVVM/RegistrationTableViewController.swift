@@ -25,6 +25,7 @@ class RegistrationTableViewController : UITableViewController {
         self.lastnameTextField.text = self.selectedUserViewModel.lastName
     }
     
+    
     @IBAction func save() {
     
         self.registrationViewModel = RegistrationViewModel(firstName: self.firstNameTextField.text!, lastName: self.lastnameTextField.text!, email: self.emailTextField.text!, password: self.passwordTextField.text!)

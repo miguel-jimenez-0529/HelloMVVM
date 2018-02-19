@@ -13,7 +13,7 @@ class RegistrationViewModel {
     var firstName :String
     var lastName :String
     var email :String
-    var password :String
+    var password :String!
     
     init(firstName :String, lastName :String, email :String, password :String) {
         self.firstName = firstName
@@ -26,7 +26,8 @@ class RegistrationViewModel {
         
         let user = User(vm: self)
         
-        // DataAccess.save(user)
+        // DataAccess.save(user) add
+        
         
     }
     
