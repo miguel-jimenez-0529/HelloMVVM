@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D28068A1FCBC29200CC79B8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2806891FCBC29200CC79B8 /* User.swift */; };
+		8D51F45B1FCBC40900D32A71 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51F45A1FCBC40900D32A71 /* RegistrationViewModel.swift */; };
+		8D80D1811FCF385000A31AC8 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80D1801FCF385000A31AC8 /* DataAccess.swift */; };
 		8DB019551FCBBC010085F8D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB019541FCBBC010085F8D6 /* AppDelegate.swift */; };
-		8DB019571FCBBC010085F8D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB019561FCBBC010085F8D6 /* ViewController.swift */; };
 		8DB0195A1FCBBC010085F8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB019581FCBBC010085F8D6 /* Main.storyboard */; };
 		8DB0195C1FCBBC010085F8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0195B1FCBBC010085F8D6 /* Assets.xcassets */; };
 		8DB0195F1FCBBC010085F8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0195D1FCBBC010085F8D6 /* LaunchScreen.storyboard */; };
+		8DB019691FCBBCC20085F8D6 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB019681FCBBCC20085F8D6 /* RegistrationTableViewController.swift */; };
+		8DCBAF4C1FD0265500D79C9C /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBAF4B1FD0265500D79C9C /* UsersTableViewController.swift */; };
+		8DCBAF4E1FD0279D00D79C9C /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBAF4D1FD0279D00D79C9C /* UsersListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D2806891FCBC29200CC79B8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8D51F45A1FCBC40900D32A71 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		8D80D1801FCF385000A31AC8 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 		8DB019511FCBBC010085F8D6 /* HelloMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB019541FCBBC010085F8D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DB019561FCBBC010085F8D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DB019591FCBBC010085F8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DB0195B1FCBBC010085F8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB0195E1FCBBC010085F8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB019601FCBBC010085F8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB019681FCBBCC20085F8D6 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		8DCBAF4B1FD0265500D79C9C /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		8DCBAF4D1FD0279D00D79C9C /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				8DB019541FCBBC010085F8D6 /* AppDelegate.swift */,
-				8DB019561FCBBC010085F8D6 /* ViewController.swift */,
 				8DB019581FCBBC010085F8D6 /* Main.storyboard */,
 				8DB0195B1FCBBC010085F8D6 /* Assets.xcassets */,
 				8DB0195D1FCBBC010085F8D6 /* LaunchScreen.storyboard */,
 				8DB019601FCBBC010085F8D6 /* Info.plist */,
+				8DB019681FCBBCC20085F8D6 /* RegistrationTableViewController.swift */,
+				8D2806891FCBC29200CC79B8 /* User.swift */,
+				8D51F45A1FCBC40900D32A71 /* RegistrationViewModel.swift */,
+				8D80D1801FCF385000A31AC8 /* DataAccess.swift */,
+				8DCBAF4B1FD0265500D79C9C /* UsersTableViewController.swift */,
+				8DCBAF4D1FD0279D00D79C9C /* UsersListViewModel.swift */,
 			);
 			path = HelloMVVM;
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB019571FCBBC010085F8D6 /* ViewController.swift in Sources */,
+				8DB019691FCBBCC20085F8D6 /* RegistrationTableViewController.swift in Sources */,
+				8D51F45B1FCBC40900D32A71 /* RegistrationViewModel.swift in Sources */,
+				8DCBAF4C1FD0265500D79C9C /* UsersTableViewController.swift in Sources */,
 				8DB019551FCBBC010085F8D6 /* AppDelegate.swift in Sources */,
+				8DCBAF4E1FD0279D00D79C9C /* UsersListViewModel.swift in Sources */,
+				8D28068A1FCBC29200CC79B8 /* User.swift in Sources */,
+				8D80D1811FCF385000A31AC8 /* DataAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = W3SFNKKMD2;
 				INFOPLIST_FILE = HelloMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloMVVM;
@@ -290,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = W3SFNKKMD2;
 				INFOPLIST_FILE = HelloMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.HelloMVVM;
